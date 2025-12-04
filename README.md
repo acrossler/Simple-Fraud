@@ -21,11 +21,11 @@ Contains the files to replicate the work I did for my senior capstone on fraud.
    C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS2022\MSSQL\Backup
    ```
 
-6. Go to that location on your machine and paste the downloaded file `CreditCards.bak` into the folder.
+6. Go to that location on your machine and paste the downloaded file `CreditCards.bak` into the folder. After this go back into backups and select add and add this downloaded as a backup. You need to delete the backup that is showing. 
 
-7. Then, right-click on **CreditCards**, go to **Tasks → Take Offline**.  
+7. Then, right-click on **CreditCards**, go to **Tasks → Take Offline**. Hit ok.   
    After this, right-click on CreditCards again, then go to:  
-   **Tasks → Policies → Restore → Database**.  
+   **Tasks → Restore → Database**.  
    From there, select **OK** and the database will be restored.  
    To confirm everything is working, go to **Tables** under CreditCards and right-click **Transaction** and **User**, selecting **Select Top 1000 Rows** for each.  
    - `Transaction` should return **1000 rows**  
@@ -43,7 +43,7 @@ Contains the files to replicate the work I did for my senior capstone on fraud.
    ```
    …to match your installation.
 
-9. Run this line to install all required packages in your Python environment (e.g., Spyder console):
+9. Run this line to install all required packages in your Python environment (e.g., Spyder console, Pycharm Terminal):
    ```
    pip install pandas geopy statsmodels numpy matplotlib scikit-learn tensorflow seaborn xgboost pyodbc
    ```
@@ -51,4 +51,4 @@ Contains the files to replicate the work I did for my senior capstone on fraud.
 10. Then run `connectionToDatabase.py`.
 
 11. Download and run `trainTestSplit.py`.  
-    It contains all of the models and will show the results.
+    It contains all of the models and will show the results. Make sure the csv file are in the folder as trainTestSplit.py otherwise it will error out. You can change the paths in trainTestSplit.py if necessary.The matrix shows rows are actual classes while columns are predicted. The first row and column is not fraud, second is fraud. The number below the matrix is total accuracy.
