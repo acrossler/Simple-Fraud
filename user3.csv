@@ -1,0 +1,201 @@
+userid,home_lat,home_lon,state,city,country,age,marital_status,isMale
+1,41.878113,-87.629799,Illinois,Chicago,USA,46,False,True
+2,25.761681,-80.191788,Florida,Miami,USA,90,False,True
+3,37.774929,-122.419418,California,San Francisco,USA,33,False,True
+4,25.761681,-80.191788,Florida,Miami,USA,33,False,True
+5,42.360081,-71.058884,Massachusetts,Boston,USA,90,True,True
+6,37.774929,-122.419418,California,San Francisco,USA,46,False,True
+7,25.761681,-80.191788,Florida,Miami,USA,64,False,True
+8,34.052235,-118.243683,California,Los Angeles,USA,47,True,True
+9,25.761681,-80.191788,Florida,Miami,USA,60,True,False
+10,47.606209,-122.332069,Washington,Seattle,USA,50,True,True
+11,47.606209,-122.332069,Washington,Seattle,USA,24,False,False
+12,39.739236,-104.99025,Colorado,Denver,USA,28,True,True
+13,25.761681,-80.191788,Florida,Miami,USA,75,False,True
+14,40.712776,-74.005974,New York,New York,USA,61,True,False
+15,42.360081,-71.058884,Massachusetts,Boston,USA,53,False,True
+16,34.052235,-118.243683,California,Los Angeles,USA,34,True,False
+17,47.606209,-122.332069,Washington,Seattle,USA,45,False,True
+18,33.448376,-112.074036,Arizona,Phoenix,USA,74,False,True
+19,29.760427,-95.369804,Texas,Houston,USA,79,False,False
+20,29.760427,-95.369804,Texas,Houston,USA,19,False,False
+21,29.760427,-95.369804,Texas,Houston,USA,48,True,True
+22,40.712776,-74.005974,New York,New York,USA,27,False,True
+23,40.712776,-74.005974,New York,New York,USA,19,False,True
+24,47.606209,-122.332069,Washington,Seattle,USA,29,False,True
+25,41.878113,-87.629799,Illinois,Chicago,USA,36,False,False
+26,37.774929,-122.419418,California,San Francisco,USA,41,False,False
+27,34.052235,-118.243683,California,Los Angeles,USA,81,True,True
+28,25.761681,-80.191788,Florida,Miami,USA,63,False,True
+29,40.712776,-74.005974,New York,New York,USA,74,True,True
+30,37.774929,-122.419418,California,San Francisco,USA,48,True,True
+31,34.052235,-118.243683,California,Los Angeles,USA,65,False,True
+32,33.448376,-112.074036,Arizona,Phoenix,USA,31,True,True
+33,40.712776,-74.005974,New York,New York,USA,44,True,False
+34,33.448376,-112.074036,Arizona,Phoenix,USA,51,True,True
+35,34.052235,-118.243683,California,Los Angeles,USA,87,True,False
+36,42.360081,-71.058884,Massachusetts,Boston,USA,30,True,True
+37,33.448376,-112.074036,Arizona,Phoenix,USA,61,False,True
+38,29.760427,-95.369804,Texas,Houston,USA,57,False,True
+39,39.739236,-104.99025,Colorado,Denver,USA,44,False,True
+40,42.360081,-71.058884,Massachusetts,Boston,USA,38,True,False
+41,40.712776,-74.005974,New York,New York,USA,76,False,True
+42,37.774929,-122.419418,California,San Francisco,USA,28,True,False
+43,29.760427,-95.369804,Texas,Houston,USA,67,False,False
+44,40.712776,-74.005974,New York,New York,USA,57,True,False
+45,47.606209,-122.332069,Washington,Seattle,USA,21,False,True
+46,42.360081,-71.058884,Massachusetts,Boston,USA,31,False,False
+47,41.878113,-87.629799,Illinois,Chicago,USA,20,False,True
+48,40.712776,-74.005974,New York,New York,USA,82,True,False
+49,47.606209,-122.332069,Washington,Seattle,USA,77,False,True
+50,34.052235,-118.243683,California,Los Angeles,USA,75,True,False
+51,47.606209,-122.332069,Washington,Seattle,USA,28,False,False
+52,39.739236,-104.99025,Colorado,Denver,USA,34,True,False
+53,37.774929,-122.419418,California,San Francisco,USA,34,True,True
+54,42.360081,-71.058884,Massachusetts,Boston,USA,80,True,True
+55,25.761681,-80.191788,Florida,Miami,USA,35,False,True
+56,41.878113,-87.629799,Illinois,Chicago,USA,36,True,True
+57,25.761681,-80.191788,Florida,Miami,USA,19,False,True
+58,40.712776,-74.005974,New York,New York,USA,52,True,False
+59,42.360081,-71.058884,Massachusetts,Boston,USA,61,True,False
+60,34.052235,-118.243683,California,Los Angeles,USA,44,True,True
+61,37.774929,-122.419418,California,San Francisco,USA,58,True,True
+62,25.761681,-80.191788,Florida,Miami,USA,89,True,False
+63,29.760427,-95.369804,Texas,Houston,USA,54,True,True
+64,41.878113,-87.629799,Illinois,Chicago,USA,34,True,False
+65,33.448376,-112.074036,Arizona,Phoenix,USA,72,False,False
+66,33.448376,-112.074036,Arizona,Phoenix,USA,36,True,False
+67,37.774929,-122.419418,California,San Francisco,USA,61,True,True
+68,40.712776,-74.005974,New York,New York,USA,38,True,True
+69,25.761681,-80.191788,Florida,Miami,USA,36,True,False
+70,33.448376,-112.074036,Arizona,Phoenix,USA,34,False,True
+71,33.448376,-112.074036,Arizona,Phoenix,USA,39,True,False
+72,29.760427,-95.369804,Texas,Houston,USA,42,True,False
+73,41.878113,-87.629799,Illinois,Chicago,USA,39,True,True
+74,41.878113,-87.629799,Illinois,Chicago,USA,67,True,True
+75,29.760427,-95.369804,Texas,Houston,USA,45,False,False
+76,29.760427,-95.369804,Texas,Houston,USA,53,True,True
+77,29.760427,-95.369804,Texas,Houston,USA,45,True,False
+78,47.606209,-122.332069,Washington,Seattle,USA,60,False,False
+79,40.712776,-74.005974,New York,New York,USA,88,False,False
+80,42.360081,-71.058884,Massachusetts,Boston,USA,66,False,True
+81,34.052235,-118.243683,California,Los Angeles,USA,83,True,False
+82,40.712776,-74.005974,New York,New York,USA,37,False,True
+83,41.878113,-87.629799,Illinois,Chicago,USA,85,True,False
+84,42.360081,-71.058884,Massachusetts,Boston,USA,60,True,False
+85,41.878113,-87.629799,Illinois,Chicago,USA,57,True,True
+86,37.774929,-122.419418,California,San Francisco,USA,43,True,True
+87,41.878113,-87.629799,Illinois,Chicago,USA,35,False,False
+88,39.739236,-104.99025,Colorado,Denver,USA,86,True,False
+89,47.606209,-122.332069,Washington,Seattle,USA,81,True,True
+90,33.448376,-112.074036,Arizona,Phoenix,USA,19,False,False
+91,41.878113,-87.629799,Illinois,Chicago,USA,83,True,True
+92,41.878113,-87.629799,Illinois,Chicago,USA,38,True,True
+93,33.448376,-112.074036,Arizona,Phoenix,USA,60,False,False
+94,29.760427,-95.369804,Texas,Houston,USA,46,True,False
+95,33.448376,-112.074036,Arizona,Phoenix,USA,49,False,False
+96,37.774929,-122.419418,California,San Francisco,USA,43,False,False
+97,25.761681,-80.191788,Florida,Miami,USA,58,False,False
+98,39.739236,-104.99025,Colorado,Denver,USA,77,True,True
+99,47.606209,-122.332069,Washington,Seattle,USA,55,True,True
+100,47.606209,-122.332069,Washington,Seattle,USA,89,False,True
+101,47.606209,-122.332069,Washington,Seattle,USA,90,True,True
+102,37.774929,-122.419418,California,San Francisco,USA,53,True,False
+103,40.712776,-74.005974,New York,New York,USA,77,False,True
+104,37.774929,-122.419418,California,San Francisco,USA,77,False,True
+105,41.878113,-87.629799,Illinois,Chicago,USA,39,True,True
+106,41.878113,-87.629799,Illinois,Chicago,USA,27,False,True
+107,29.760427,-95.369804,Texas,Houston,USA,27,False,False
+108,37.774929,-122.419418,California,San Francisco,USA,42,False,True
+109,41.878113,-87.629799,Illinois,Chicago,USA,45,True,False
+110,33.448376,-112.074036,Arizona,Phoenix,USA,69,False,True
+111,34.052235,-118.243683,California,Los Angeles,USA,64,True,False
+112,37.774929,-122.419418,California,San Francisco,USA,74,False,True
+113,41.878113,-87.629799,Illinois,Chicago,USA,41,True,True
+114,34.052235,-118.243683,California,Los Angeles,USA,23,True,True
+115,41.878113,-87.629799,Illinois,Chicago,USA,37,False,True
+116,42.360081,-71.058884,Massachusetts,Boston,USA,81,True,False
+117,39.739236,-104.99025,Colorado,Denver,USA,48,False,False
+118,47.606209,-122.332069,Washington,Seattle,USA,63,True,False
+119,41.878113,-87.629799,Illinois,Chicago,USA,58,False,True
+120,39.739236,-104.99025,Colorado,Denver,USA,59,False,False
+121,37.774929,-122.419418,California,San Francisco,USA,27,False,False
+122,47.606209,-122.332069,Washington,Seattle,USA,36,True,False
+123,39.739236,-104.99025,Colorado,Denver,USA,79,False,False
+124,47.606209,-122.332069,Washington,Seattle,USA,20,True,False
+125,33.448376,-112.074036,Arizona,Phoenix,USA,79,False,True
+126,41.878113,-87.629799,Illinois,Chicago,USA,66,False,False
+127,37.774929,-122.419418,California,San Francisco,USA,77,True,False
+128,25.761681,-80.191788,Florida,Miami,USA,37,False,True
+129,40.712776,-74.005974,New York,New York,USA,35,True,False
+130,40.712776,-74.005974,New York,New York,USA,75,False,False
+131,39.739236,-104.99025,Colorado,Denver,USA,85,True,True
+132,47.606209,-122.332069,Washington,Seattle,USA,24,True,False
+133,37.774929,-122.419418,California,San Francisco,USA,79,True,False
+134,47.606209,-122.332069,Washington,Seattle,USA,42,True,False
+135,33.448376,-112.074036,Arizona,Phoenix,USA,66,True,False
+136,39.739236,-104.99025,Colorado,Denver,USA,20,False,True
+137,25.761681,-80.191788,Florida,Miami,USA,48,True,True
+138,37.774929,-122.419418,California,San Francisco,USA,46,True,True
+139,39.739236,-104.99025,Colorado,Denver,USA,75,False,False
+140,37.774929,-122.419418,California,San Francisco,USA,79,True,True
+141,42.360081,-71.058884,Massachusetts,Boston,USA,67,False,True
+142,34.052235,-118.243683,California,Los Angeles,USA,78,False,False
+143,33.448376,-112.074036,Arizona,Phoenix,USA,41,True,False
+144,33.448376,-112.074036,Arizona,Phoenix,USA,45,True,False
+145,41.878113,-87.629799,Illinois,Chicago,USA,82,False,False
+146,41.878113,-87.629799,Illinois,Chicago,USA,46,False,True
+147,47.606209,-122.332069,Washington,Seattle,USA,32,False,False
+148,25.761681,-80.191788,Florida,Miami,USA,31,False,False
+149,41.878113,-87.629799,Illinois,Chicago,USA,23,False,False
+150,29.760427,-95.369804,Texas,Houston,USA,72,False,False
+151,40.712776,-74.005974,New York,New York,USA,34,False,True
+152,39.739236,-104.99025,Colorado,Denver,USA,71,True,True
+153,40.712776,-74.005974,New York,New York,USA,66,False,True
+154,33.448376,-112.074036,Arizona,Phoenix,USA,46,True,False
+155,40.712776,-74.005974,New York,New York,USA,42,True,False
+156,25.761681,-80.191788,Florida,Miami,USA,45,True,True
+157,25.761681,-80.191788,Florida,Miami,USA,61,True,False
+158,25.761681,-80.191788,Florida,Miami,USA,26,False,True
+159,41.878113,-87.629799,Illinois,Chicago,USA,32,False,True
+160,25.761681,-80.191788,Florida,Miami,USA,34,True,True
+161,41.878113,-87.629799,Illinois,Chicago,USA,31,True,False
+162,47.606209,-122.332069,Washington,Seattle,USA,74,True,True
+163,40.712776,-74.005974,New York,New York,USA,57,True,False
+164,29.760427,-95.369804,Texas,Houston,USA,53,True,False
+165,33.448376,-112.074036,Arizona,Phoenix,USA,75,False,True
+166,47.606209,-122.332069,Washington,Seattle,USA,53,True,False
+167,33.448376,-112.074036,Arizona,Phoenix,USA,21,True,True
+168,34.052235,-118.243683,California,Los Angeles,USA,61,False,True
+169,39.739236,-104.99025,Colorado,Denver,USA,34,True,True
+170,41.878113,-87.629799,Illinois,Chicago,USA,80,True,False
+171,37.774929,-122.419418,California,San Francisco,USA,45,True,True
+172,37.774929,-122.419418,California,San Francisco,USA,88,False,True
+173,42.360081,-71.058884,Massachusetts,Boston,USA,87,True,False
+174,33.448376,-112.074036,Arizona,Phoenix,USA,62,True,False
+175,39.739236,-104.99025,Colorado,Denver,USA,74,True,False
+176,33.448376,-112.074036,Arizona,Phoenix,USA,74,True,False
+177,40.712776,-74.005974,New York,New York,USA,65,False,True
+178,34.052235,-118.243683,California,Los Angeles,USA,41,True,False
+179,34.052235,-118.243683,California,Los Angeles,USA,53,False,True
+180,39.739236,-104.99025,Colorado,Denver,USA,58,False,False
+181,33.448376,-112.074036,Arizona,Phoenix,USA,86,False,True
+182,41.878113,-87.629799,Illinois,Chicago,USA,26,False,True
+183,37.774929,-122.419418,California,San Francisco,USA,27,False,False
+184,41.878113,-87.629799,Illinois,Chicago,USA,32,True,False
+185,37.774929,-122.419418,California,San Francisco,USA,22,True,False
+186,34.052235,-118.243683,California,Los Angeles,USA,79,True,True
+187,34.052235,-118.243683,California,Los Angeles,USA,74,False,True
+188,41.878113,-87.629799,Illinois,Chicago,USA,32,True,True
+189,42.360081,-71.058884,Massachusetts,Boston,USA,50,False,True
+190,41.878113,-87.629799,Illinois,Chicago,USA,87,False,True
+191,41.878113,-87.629799,Illinois,Chicago,USA,57,True,False
+192,37.774929,-122.419418,California,San Francisco,USA,81,False,False
+193,33.448376,-112.074036,Arizona,Phoenix,USA,84,True,True
+194,37.774929,-122.419418,California,San Francisco,USA,53,True,True
+195,41.878113,-87.629799,Illinois,Chicago,USA,64,True,True
+196,41.878113,-87.629799,Illinois,Chicago,USA,33,True,False
+197,39.739236,-104.99025,Colorado,Denver,USA,35,False,True
+198,34.052235,-118.243683,California,Los Angeles,USA,89,False,False
+199,41.878113,-87.629799,Illinois,Chicago,USA,49,False,True
+200,29.760427,-95.369804,Texas,Houston,USA,63,True,False
