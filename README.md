@@ -13,7 +13,7 @@ Contains the files to replicate the work I did for my senior capstone on fraud.
 4. Sign onto your server and create a database called `CreditCards`.
 
 5. After this, right-click on **CreditCards**, then go to:  
-   **Tasks → Policies → Backups**.  
+   **Tasks → Backups**.  
    From there click **Add**, then click the **three dots (…)**.  
    In *Selected Path*, select all and paste into a notepad.  
    You should get a path similar to:  
