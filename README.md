@@ -31,7 +31,7 @@ Contains the files to replicate the work I did for my senior capstone on fraud.
    - `Transaction` should return **1000 rows**  
    - `User` should return **236 rows**
 
-8. Now it is time to connect the database to Python.  
+8. Now it is time to connect the database to Python. If you do not have it, download Anaconda and use Spyder https://www.anaconda.com/download  
    If you want to skip this step, download the CSV files `transaction3.csv` and `user3.csv` from GitHub and skip to **Step 11**.  
    Make sure to still run **Step 9**.
 
