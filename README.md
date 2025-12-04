@@ -2,9 +2,9 @@
 Contains the files to replicate the work I did for my senior capstone on fraud. 
 
 # Installtion Guide
-1. Go to the GitHub repository: `acrossler/Simple-Fraud`. This contains the files needed to replicate the work completed for my senior capstone on fraud.
+1. Go to the GitHub repository: `acrossler/Simple-Fraud`. This contains the files needed to replicate the work I did for my senior capstone on fraud.
 
-2. Download the `CreditCards.bak` file from the repository.
+2. Download the `CreditCardsScript.sql` file from GitHub.
 
 3. Open SQL Server Management Studio.  
    If you need a server, download Microsoft SQL Server Express:  
@@ -12,43 +12,46 @@ Contains the files to replicate the work I did for my senior capstone on fraud.
 
 4. Sign onto your server and create a database called `CreditCards`.
 
-5. After this, right-click on **CreditCards**, then go to:  
-   **Tasks → Backups**.  
-   From there click **Add**, then click the **three dots (…)**.  
-   In *Selected Path*, select all and paste into a notepad.  
-   You should get a path similar to:  
-   ```
-   C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS2022\MSSQL\Backup
-   ```
+5. Open `CreditCardsScript.sql` and run it.  
+   To confirm everything loaded correctly:
+   - Expand the **CreditCards** database → **Tables**
+   - Right-click **Transaction** → *Select Top 1000 Rows*  
+   - Right-click **User** → *Select Top 1000 Rows*  
+   You should see:
+   - **Transaction**: 1000 rows  
+   - **User**: 236 rows
 
-6. Go to that location on your machine and paste the downloaded file `CreditCards.bak` into the folder. After this go back into backups and select add and add this downloaded as a backup. You need to delete the backup that is showing. 
+6. Now it is time to connect the database to Python.  
+   If you do not have Python installed, download Anaconda and use Spyder:  
+   https://www.anaconda.com/download  
+   
+   **If you want to skip database connection**, download `transaction3.csv` and `user3.csv` from GitHub and skip to **Step 9**.  
+   Make sure you still run **Step 7**.
 
-7. Then, right-click on **CreditCards**, go to **Tasks → Take Offline**. Hit ok.   
-   After this, right-click on CreditCards again, then go to:  
-   **Tasks → Restore → Database**.  
-   From there, select **OK** and the database will be restored.  
-   To confirm everything is working, go to **Tables** under CreditCards and right-click **Transaction** and **User**, selecting **Select Top 1000 Rows** for each.  
-   - `Transaction` should return **1000 rows**  
-   - `User` should return **236 rows**
+   If *not skipping*, then:
+   - Open `connectionToDatabase.py` in your Python environment (I use Spyder).  
+   - Ensure the server name matches your SQL Server instance.  
+     Change the `SQLEXPRESS2022` part after:
+     ```
+     Server = localhost\\
+     ```
+     to match your setup.
 
-8. Now it is time to connect the database to Python. If you do not have it, download Anaconda and use Spyder https://www.anaconda.com/download  
-   If you want to skip this step, download the CSV files `transaction3.csv` and `user3.csv` from GitHub and skip to **Step 11**.  
-   Make sure to still run **Step 9**.
-
-   If *not* skipping, then while the database is open, open the file `connectionToDatabase.py` in your Python environment (I use Spyder).  
-   Ensure the server name matches your SQL Server instance.  
-   Change the `SQLEXPRESS2022` part after:
-   ```
-   Server = localhost\\
-   ```
-   …to match your installation.
-
-9. Run this line to install all required packages in your Python environment (e.g., Spyder console, Pycharm Terminal):
+7. Install all required packages by running this line in your Python console/terminal:
    ```
    pip install pandas geopy statsmodels numpy matplotlib scikit-learn tensorflow seaborn xgboost pyodbc
    ```
 
-10. Then run `connectionToDatabase.py`.
+8. Run `connectionToDatabase.py`.
 
-11. Download and run `trainTestSplit.py`.  
-    It contains all of the models and will show the results. Make sure the csv file are in the folder as trainTestSplit.py otherwise it will error out. You can change the paths in trainTestSplit.py if necessary.The matrix shows rows are actual classes while columns are predicted. The first row and column is not fraud, second is fraud. The number below the matrix is total accuracy.
+9. Download and run `trainTestSplit.py`.  
+   It includes all of the models and displays the results.  
+   **Make sure the CSV files are in the same folder as `trainTestSplit.py`** or you will get an error.  
+   You can change the file paths inside `trainTestSplit.py` if needed.
+
+   In the confusion matrix:
+   - Rows = actual classes  
+   - Columns = predicted classes  
+   - First row/column = *not fraud*  
+   - Second row/column = *fraud*  
+   The value printed below the matrix is the total accuracy.
